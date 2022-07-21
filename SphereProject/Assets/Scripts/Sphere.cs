@@ -29,7 +29,7 @@ public class Sphere : MonoBehaviour
         MeshRenderer = GetComponent<MeshRenderer>();
         Burst = transform.GetChild(0).GetComponent<ParticleSystem>();
         InputManager = GetComponent<InputManager>();
-
+        //test1
         GUIStyle = new GUIStyle
         {
             fontSize = 80
@@ -96,6 +96,7 @@ public class Sphere : MonoBehaviour
     {
         if (InputManager.IsPause && InputManager.IsGameStarted)
         {
+            //test2
             GUI.Label(new Rect(100, 100, 1000, 1000), "Distance travelled: " + distanceSum.ToString(), GUIStyle);
 
         }
