@@ -29,7 +29,9 @@ public class Sphere : MonoBehaviour
         MeshRenderer = GetComponent<MeshRenderer>();
         Burst = transform.GetChild(0).GetComponent<ParticleSystem>();
         InputManager = GetComponent<InputManager>();
+
         //test4
+        //test5
         GUIStyle = new GUIStyle
         {
             fontSize = 80
