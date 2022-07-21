@@ -44,6 +44,7 @@ public class Sphere : MonoBehaviour
             {
                 if (!isCenter)
                 {
+                    //test3
                     StartCoroutine(Explosion());
                     isCenter = true;
                 }
